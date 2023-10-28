@@ -1,0 +1,111 @@
+<!-- Sign Up Form For Question 5 of Media And Forms Assignment -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+
+<!-- Body Style -->
+<body style="background-color:papayawhip;color: darkblue;">
+
+    <!-- Heading 1 Style -->
+    <h1 style="color: darkblue;font-display:unset;font-size:x-large;" align="center" >Sign Up Form</h1>
+
+    <!-- Form Style -->
+    <form style="background-color:transparent;color:darkblue;font-size:larger;" align="center" action="Thanks.html" >
+
+        <fieldset>
+            
+    <!-- First Name Label -->
+
+    <label for="FirstName">First Name:</label>
+
+        <!-- Input Field for First Name Label -->
+
+        <input name="FirstName" id="FirstName" type="text"  required  minlength="3">
+        <br>
+        <br>
+
+        <!-- Last Name Label -->
+        <label for="LastName"> Last Name: </label>
+
+        <!-- Input Field For Last Name Label   -->
+        <input name="LastName" id="LastName" type="text"  required minlength="3">
+        <br>
+        <br>
+        
+        <!--Email Label  -->
+        <label for="E-Mail"> E-mail: </label>
+
+        <!-- Input Field For E-mail Label   -->
+            <input type="email" name="E-mail" id="E-Mail" required minlength="3">
+        <br>
+        <br>
+
+        <!-- Label for Date of Birth -->
+        <label for="DateOfBirth">Date Of Birth:</label>
+                
+        <!-- Input Field For Date Of Birth Label   -->
+        <input type="date" name="DateOfBirth" id="DateOfBirth" required><br><br>
+
+        <!-- Age Label -->
+        <label for="Age">Age:</label>
+
+        <!-- Input Field For Age Label   -->
+        <input type="number" name="Age" id="Age" placeholder="5" required min="0" max="150" >
+        <br>
+        <br>
+
+        <!-- Gender Label -->
+        <label>Gender:</label> 
+
+        <!-- Male Radio Button -->
+        <input type="radio" name="Gender" required value="Male" required id="Male">
+
+        <!-- Male Label -->
+        <label for="Male">Male</label>
+
+        <!-- FE=emale Radio Button -->
+        <input type="radio" name="Gender" required value="Female" id="Female">
+        
+        <!--Female Label  -->
+        <label for="Female">Female</label>
+
+        <!-- Others (Gender) Radio Button -->
+        <input type="radio" name="Gender" required value="Other" id="Other">
+
+        <!-- Other(Gender) Label -->
+        <label for="Other">Others</label>
+        <br>
+        <br>
+
+        <!-- Label For Mobile Number -->
+        <label for="MobileNo">Mobile Number:</label>
+        <!-- Input Field For Mobile Number -->
+        <input type="tel" id="MobileNo" required pattern="[0-9]{10}">
+        <br><br>
+
+        <!-- Label for Password Field -->
+        <label for="password1">Password:</label>
+        <!-- Input Field For Password -->
+        <input type="password" id="password1" required>
+        <br><br>
+
+        <!-- Checkbox for Terms And Conditions -->
+        <input type="checkbox" required id="TermsAndConditions">
+        <!--Label For Checkbox for Terms And Conditions -->
+        <label for="TermsAndConditions">I Agree to All Terms And Conditions</label>
+        <br><br>
+            
+         <!-- Submit Button -->
+        <input type="submit" name="Submit" Value="Submit">
+
+        <!-- Reset Button -->
+        <input type="reset" name="Reset" Value="Reset">
+
+    </fieldset>
+    </form>
+</body>
+</html>
